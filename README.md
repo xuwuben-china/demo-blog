@@ -14,6 +14,7 @@ npm i
 
 启动数据库
 mongod --dbpath database/db
+如果启动失败 先把database/db里的所有文件删除 再执行上面命令
 
 启动项目
 node app
